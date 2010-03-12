@@ -25,7 +25,7 @@ import de.sten.shared.SMSObject;
 import de.sten.shared.SMSResponse;
 
 
-
+//main class with entry point
 public class Z1 implements EntryPoint, ClickHandler {
 	private final SMSServiceAsync smsService = GWT
 	.create(SMSService.class);
